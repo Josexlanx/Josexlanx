@@ -1,0 +1,119 @@
+body {
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0;
+}
+
+.card-header {
+    background-color: #28a745;
+}
+
+.nav-tabs .nav-link {
+    color: #28a745;
+    font-weight: bold;
+}
+
+.nav-tabs .nav-link.active {
+    color: #fff;
+    background-color: #28a745;
+}
+
+.form-control {
+    margin-bottom: 15px;
+}
+
+textarea.form-control {
+    height: 100px;
+}
+
+button {
+    margin-top: 20px;
+}
+
+.margen1 {
+    margin: 50px;
+}
+.btn-success {
+    max-width: 150px; /* Ajusta el ancho máximo según tu preferencia */
+}
+/* Tamaño del botón Guardar y Volver Atrás */
+.btn-success, .volver-atras {
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    flex-shrink: 0; /* Evita que el botón se reduzca más de lo necesario */
+}
+.volver-atras2 {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%); /* Centra el botón horizontalmente */
+    z-index: 1000; /* Asegura que esté encima de otros elementos */
+}
+
+/* Perfil médico (no tocar) */
+.body-medic {
+    background-color: #f8f9fa;
+}
+
+.profile-card {
+    border: 2px solid #0077F7;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+}
+
+.profile-card img {
+    border-radius: 50%;
+    border: 2px solid #0077F7;
+}
+
+.profile-card h4 {
+    color: #0077F7;
+    margin-top: 10px;
+}
+
+.profile-card p {
+    color: #333;
+}
+
+.info-section {
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.menu-cardM {
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.menu-itemM {
+    border: 1px solid #0077F7;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #0077F7;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.menu-itemM:hover {
+    background-color: #0077F7;
+    color: white;
+}
+
+div.col-md-3 a {
+    text-decoration: none;
+}

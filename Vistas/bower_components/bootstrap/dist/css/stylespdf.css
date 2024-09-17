@@ -1,0 +1,126 @@
+/* stylespdf.css */
+
+/* General Reset and Layout */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    padding: 0;
+    font-size: 12px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 10mm auto;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.document {
+    max-width: 210mm; /* A4 width */
+    margin: 20mm auto;
+    padding: 10mm;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.section {
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 16px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+/* Form Styles */
+.historiaClinicaForm {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* Layout for "Datos Personales" */
+.form-group-inline {
+    flex: 1;
+    min-width: calc(33.33% - 10px); /* Three columns */
+}
+
+.form-group-half {
+    flex: 1;
+    min-width: calc(50% - 10px); /* Two columns */
+}
+
+.form-group-full {
+    flex: 1;
+    min-width: 100%; /* Full width */
+}
+
+/* Layout for "Funciones Vitales" */
+.form-group-third {
+    flex: 1;
+    min-width: calc(33.33% - 10px); /* Three columns */
+}
+
+/* Layout for "Anamnesis" */
+.form-group-third {
+    flex: 1;
+    min-width: calc(33.33% - 10px); /* Three columns */
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+textarea {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 11px; /* Tamaño de fuente en los campos de entrada */
+}
+
+textarea {
+    resize: vertical;
+    min-height: 50px;
+}
+
+/* Responsive Design */
+@media print {
+    body {
+        margin: 0;
+    }
+
+    .document {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        box-shadow: none;
+    }
+
+    button {
+        display: none;
+    }
+}
+
+

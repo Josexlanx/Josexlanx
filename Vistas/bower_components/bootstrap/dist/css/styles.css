@@ -1,0 +1,125 @@
+/* Estilos generales */
+.nav-tabs .nav-link {
+    color: #28a745;
+    font-weight: bold;
+}
+
+.form-control {
+    margin-bottom: 15px;
+}
+
+textarea.form-control {
+    height: 100px;
+}
+
+/* Ajuste de la tarjeta */
+.card {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Botones alineados con el contenedor */
+.text-center {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.date-time-labels {
+    text-align: right;
+    margin-left: auto;
+}
+
+.date-time-labels span {
+    display: block;
+}
+
+/* Media Queries para Responsividad */
+@media (max-width: 768px) {
+    .card {
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+
+    .text-center {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .form-control, .historiaClinicaForm .form-control {
+        margin-bottom: 10px;
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    textarea.form-control {
+        height: 80px; /* Reducir la altura en pantallas más pequeñas */
+    }
+
+    .nav-tabs .nav-link {
+        font-size: 14px; /* Ajuste del tamaño de la fuente en pantallas pequeñas */
+    }
+
+    .date-time-labels {
+        text-align: center; /* Centrar en pantallas pequeñas */
+    }
+
+    .profile-card, .info-section, .menu-cardM {
+        padding: 15px;
+        margin-bottom: 10px;
+    }
+
+    .menu-itemM {
+        padding: 8px;
+        font-size: 14px; /* Ajuste del tamaño de fuente en pantallas más pequeñas */
+    }
+
+    /* Ajuste del botón */
+    a.btn-link .custom-btn, a.btn-link .custom-btn2 {
+        font-size: 12px; /* Ajuste del tamaño de la fuente */
+        padding: 8px 16px; /* Ajuste del padding */
+    }
+}
+
+/* Media Queries para pantallas aún más pequeñas (como teléfonos) */
+@media (max-width: 576px) {
+    .card {
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+
+    .form-control, .historiaClinicaForm .form-control {
+        padding: 6px;
+        font-size: 12px; /* Tamaño de fuente más pequeño para teléfonos */
+    }
+
+    textarea.form-control {
+        height: 60px; /* Reducir más la altura */
+    }
+
+    .nav-tabs .nav-link {
+        font-size: 12px;
+    }
+
+    .date-time-labels span {
+        font-size: 12px;
+    }
+
+    .profile-card h4, .profile-card p {
+        font-size: 14px;
+    }
+
+    .menu-itemM {
+        font-size: 12px;
+        padding: 6px;
+    }
+
+    .text-center {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    a.btn-link .custom-btn, a.btn-link .custom-btn2 {
+        font-size: 10px; /* Ajuste del tamaño de la fuente */
+        padding: 6px 12px; /* Ajuste del padding */
+    }
+}

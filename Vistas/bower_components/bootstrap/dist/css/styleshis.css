@@ -1,0 +1,158 @@
+.unique-body {
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.unique-container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0;
+}
+
+.unique-card-header {
+    background-color: #28a745;
+}
+
+.unique-nav-tabs .unique-nav-link {
+    color: #28a745;
+    font-weight: bold;
+}
+
+.unique-nav-tabs .unique-nav-link.active {
+    color: #fff;
+    background-color: #28a745;
+}
+
+.unique-form-control {
+    margin-bottom: 15px;
+}
+
+.unique-textarea.unique-form-control {
+    height: 100px;
+}
+
+.unique-button {
+    margin-top: 20px;
+}
+
+.unique-margen1 {
+    margin: 50px;
+}
+
+.unique-btn-success {
+    max-width: 150px; /* Ajusta el ancho máximo según tu preferencia */
+}
+
+.unique-btn-success, .unique-volver-atras {
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    flex-shrink: 0; /* Evita que el botón se reduzca más de lo necesario */
+}
+
+/* Perfil médico (no tocar) */
+.unique-body-medic {
+    background-color: #f8f9fa;
+}
+
+.unique-profile-card {
+    border: 2px solid #0077F7;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+}
+
+.unique-profile-card img {
+    border-radius: 50%;
+    border: 2px solid #0077F7;
+}
+
+.unique-profile-card h4 {
+    color: #0077F7;
+    margin-top: 10px;
+}
+
+.unique-profile-card p {
+    color: #333;
+}
+
+.unique-info-section {
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.unique-menu-cardM {
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.unique-menu-itemM {
+    border: 1px solid #0077F7;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #0077F7;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.unique-menu-itemM:hover {
+    background-color: #0077F7;
+    color: white;
+}
+
+.unique-div.unique-col-md-3 a {
+    text-decoration: none;
+}
+
+/* Estilos específicos para el botón dentro del enlace */
+.unique-a.unique-btn-link {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.unique-a.unique-btn-link .unique-custom-btn {
+    background-color: #28a745; /* Color verde */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: auto; /* Para que el ancho sea automático */
+    display: inline-block; /* Para que el botón no ocupe todo el ancho */
+}
+
+.unique-a.unique-btn-link .unique-custom-btn2 {
+    background-color: #28a745; /* Color verde */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 10px auto;
+    transition: background-color 0.3s ease;
+    width: auto; /* Para que el ancho sea automático */
+    display: inline-block; /* Para que el botón no ocupe todo el ancho */
+}
+
+.unique-a.unique-btn-link .unique-custom-btn:hover {
+    background-color: #218838; /* Verde más oscuro para el hover */
+}
+
+.unique-a.unique-btn-link .unique-custom-btn2:hover {
+    background-color: #218838; /* Verde más oscuro para el hover */
+}
+
